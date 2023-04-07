@@ -34,7 +34,7 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                items:5,
+                items:2,
                 nav:true
             },
             600:{
