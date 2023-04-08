@@ -34,7 +34,7 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                items:2,
+                items:1,
                 nav:true
             },
             600:{
@@ -42,7 +42,7 @@ $(document).ready(function(){
                 nav:true
             },
             1000:{
-                items:5,
+                items:6,
                 margin:20,
                 nav:true,
                 loop:true
@@ -50,16 +50,16 @@ $(document).ready(function(){
         }
     })
   });
-// var myVar;
+var myVar;
 
-// function myFunction() {
-//   myVar = setTimeout(showPage, 3000);
-// }
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
 
-// function showPage() {
-//   document.getElementById("loader").style.display = "none";
-//   document.getElementById("myDiv").style.display = "block";
-// }
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 
 
 $(function() {
